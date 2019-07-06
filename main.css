@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto', sans-serif
+}
+.navbar{
+    background-color: blue;
+}
+
+
+/*--.alert-container{}--*/
+
+.callout-container{
+height: 100vh;
+background: url('main folder/Images/whiskey.jpg') no-repeat bottom right fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/*--.quote-container{}
+
+.features-container{}--*/
