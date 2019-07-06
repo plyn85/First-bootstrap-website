@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <script src="https://kit.fontawesome.com/79a216679c.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
     <link rel='stylesheet' href='main.css' type='text.css'>
+
 </head>
 
 <body>
@@ -31,6 +34,14 @@
     </nav>
 
     <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On. Get a 12-month subscription for the price of 6</strong><a href="/"><br>See here
+                        for details!</a>
+                </div>
+            </div>
+        </div>
         <!--callout--->
         <div class="row">
             <div class="col-12">
@@ -62,21 +73,34 @@
 
             <div class="row">
 
-                <div class="media">
+
+                <div class="col-12 col-md-6">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="main folder\Images\download.jpg" class="rounded-circle mr-3" height="100"
+                                width="100" alt="image of a girl">
+                        </div>
+                        <div class="mediabody">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great international whiskeys I knew about</p>
+                                <p>-Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                     <div class="col-12 col-md-6">
-                        <img src="main folder\Images\download.jpg">
                         <blockquote class="blockquote">
-                            <p>I've been introduced to more than 10 great international whiskeys I knew about</p>
-                            <p>-Jane Doe</p>
+                            <div class="media">
+                                <div class="mediabody">
+                                    <div class="d-none d-sm-block">
+                                        <img src="main folder\Images\guy-image.png" class="rounded-circle mr-3"
+                                            height="100" width="100" alt="image of a man">
+                                    </div>
+                                    <p>I haven 't been sober for months!</p>
+                                    <p>-Jane Doe</p>
                         </blockquote>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I haven 't been sober for months!</p>
-                        <p>-Jane Doe</p>
-                    </blockquote>
-                </div>
+            </div>
             </div>
         </section>
 
@@ -96,7 +120,10 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3>
+                            <div class="d-none d-md-block"><i class="fas fa-gifts"></i></div> Feature 1<span
+                                class="badge badge-success">NEW!</span>
+                        </h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores laudantium, laborum sequi
                             cumque
                             eaque est dolorem labore quibusdam totam non debitis laboriosam cupiditate qu
@@ -108,7 +135,9 @@
 
                 <div class="col-12 col-md-6  col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3>
+                            <div class="d-none d-md-block"><i class="fab fa-cc-visa"></i></div> Feature 2
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur velit ipsa
                             exercitationem
                             labore
@@ -121,7 +150,9 @@
 
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 4</h3>
+                        <h3>
+                            <div class="d-none d-md-block"><i class="fas fa-times-circle"></i></div> Feature 3
+                        </h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aperiam maiores odit accusamus
                             voluptatibus voluptatum. Inventore incidunt dolor repellat atque quidem sunt,
                             qui, vel earum totam culpa, hic officia nihil!</p>
@@ -134,6 +165,7 @@
 
         <!--/.features-->
     </article>
+
 </body>
 
 </html>
