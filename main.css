@@ -1,22 +1,192 @@
-body{
+body {
     font-family: 'Roboto', sans-serif
 }
+
+/*.navbar-custom {
+   !important to change navbar color*/
+
+/*---navbar-my-version-----*/
+/*---
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+    color: white;
+}
+
+/* change the link color */
+
+/*---.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+    color: rgba(255, 193, 7, 0.83);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar-custom .dropdown-menu {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 193, 7, 0.83);
+}
+
+.navbar-custom .dropdown-item {
+    color: #ffffff;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.navbar-custom .dropdown-item:hover, .navbar-custom .dropdown-item:focus {
+    color: #333333;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.navbar-toggler {
+    border: 1px solid black;
+    background-color: rgba(255, 193, 7, 0.83);
+}
+
+.navlink {
+    color: #f4fafa;
+}
+
+/*.navlink:hover{
+    color: #e67e22;
+}*/
+
+/*--.navlink:link, .navlink:active {
+    color: rgba(255, 193, 7, 0.83);
+}---end of my version--*/
+
+/*--navbar-course-version--*/
+
+.navalert-container{
+position: absolute;
+top:0;
+left:0;
+padding-top:0;
+padding-left:0;
+z-index:1;
+}
+
 .navbar{
-    background-color: blue;
+   margin-bottom: 0;
+   border: 0;
+   width: 100%;
+   background-color:rgba(0, 0, 0, 0.3)
+
+}
+
+.navbar-navbar-toggler{
+    border:0;
+}
+.navbar-brand{
+   font-weight: bold; 
+}
+.navbar .navbar-nav a{
+    font-weight: bold; 
+}
+
+.alert-container .col-12{
+    padding-left:0;
+    padding-right:0;
+}
+
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom:0;
+    padding: 5px 15px;
+    background-color:#f7c62d;
 }
 
 
-/*--.alert-container{}--*/
-
-.callout-container{
-height: 100vh;
-background: url('main folder/Images/whiskey.jpg') no-repeat bottom right fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+/*end of nav core version--*/
+.callout-container {
+    height: 100vh;
+    background: url('main folder/Images/whiskeyglasses.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-image: linear-gradient(rgba(11, 11, 11, 0.71),rgba(112, 106, 106, 0.233)) another way to darken image not using opaque-overlay
+,url('main folder/Images/whiskeyglasses.jpg');*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*only use if using opaque-overlay*/
 }
 
 /*--.quote-container{}
 
 .features-container{}--*/
+
+/*---jumbothron header---*/
+
+.jumbotron-header {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: rgb(240, 234, 234);
+}
+
+.jumbotron p {
+    color: #f7f9fb;
+}
+
+.jumbotron mark {
+    border-radius: 5px;
+    background-color: rgba(255, 193, 7, 0.83);
+    color: white;
+    margin-left: 15px;
+}
+
+.jumbotron .lead {
+    color: rgba(255, 193, 7, 0.83);
+    margin: 25px 0;
+}
+
+.jumbotron hr {
+    border-top: 2px solid rgba(255, 193, 7, 0.83);
+    width: 100px;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*--buttons---*/
+
+.btn-cta {
+    margin-top: 20px;
+    font-weight: 700;
+    background-color: rgba(255, 193, 7, 0.83);
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.btn-cta:hover {
+    background-color: rgba(119, 91, 7, 0.83) !important;
+    border-color: #0c0600 !important;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn-modal {
+    background-color: rgba(255, 193, 7, 0.83);
+    color: white;
+}
