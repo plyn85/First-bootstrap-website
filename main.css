@@ -284,28 +284,18 @@ hr {
     margin-top: 30px;
     background-color: #000000c7;
     border-radius: 10px;
+    text-align: center;
+    padding: 5px auto 5px aut;
 }
 
 .container-footer i {
     font-size: 30px;
     color: white;
+    padding: 10px;
+    margin-top: 5px;
 }
 
-.container-footer li {
-    display: inline-block;
-    padding: 15px;
-}
-
-.footer-btn {
-    margin-bottom: 40px;
-}
-
-.footer-btn a {
+.footer-copyright{
     color: white;
 }
 
-.container-footer p {
-    color: white;
-    margin-top: 30px;
-    margin-right: 0;
-}
