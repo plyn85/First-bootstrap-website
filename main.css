@@ -6,14 +6,17 @@ body {
    !important to change navbar color*/
 
 /*---navbar-my-version-----*/
-/*---
-.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+
+/*.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
     color: white;
 }
 
-/* change the link color */
+.mycontainer-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
 
-/*---.navbar-custom .navbar-nav .nav-link {
+.navbar-custom .navbar-nav .nav-link {
     color: white;
 }
 
@@ -45,61 +48,97 @@ body {
     background-color: rgba(255, 193, 7, 0.83);
 }
 
-.navlink {
+/*.nav-link {
     color: #f4fafa;
 }
 
-/*.navlink:hover{
+.nav-link:hover{
     color: #e67e22;
-}*/
+}
 
-/*--.navlink:link, .navlink:active {
+/*--.nav-link:link, .nav-link:active {
     color: rgba(255, 193, 7, 0.83);
-}---end of my version--*/
+}-/
+
+/*---alert warning
+
+.navalert-container {
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.alert-warning {
+    border-color: #343d45;
+    
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #f7c62d;
+}--*/
+
+/*---end of my version--*/
 
 /*--navbar-course-version--*/
 
-.navalert-container{
-position: absolute;
-top:0;
-left:0;
-padding-top:0;
-padding-left:0;
-z-index:1;
+.navbar .symbol {
+    font-size: 50px;
+    color: white;
+    margin-right: 20px;
 }
 
-.navbar{
-   margin-bottom: 0;
-   border: 0;
-   width: 100%;
-   background-color:rgba(0, 0, 0, 0.3)
-
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    z-index: 1;
 }
 
-.navbar-navbar-toggler{
-    border:0;
-}
-.navbar-brand{
-   font-weight: bold; 
-}
-.navbar .navbar-nav a{
-    font-weight: bold; 
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3)
 }
 
-.alert-container .col-12{
-    padding-left:0;
-    padding-right:0;
+.navbar-navbar-toggler {
+    border: 0;
 }
 
-.site-wide-alert{
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.mycontainer-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
     border-radius: 0;
-    margin-bottom:0;
+    margin-bottom: 0;
     padding: 5px 15px;
-    background-color:#f7c62d;
+    background-color: #f7c62d;
 }
 
+/*end of nav corse version--*/
 
-/*end of nav core version--*/
 .callout-container {
     height: 100vh;
     background: url('main folder/Images/whiskeyglasses.jpg') no-repeat bottom right fixed;
@@ -154,7 +193,7 @@ z-index:1;
     margin: 25px 0;
 }
 
-.jumbotron hr {
+hr {
     border-top: 2px solid rgba(255, 193, 7, 0.83);
     width: 100px;
 }
@@ -170,13 +209,20 @@ z-index:1;
 
 /*--buttons---*/
 
+.nav-btn {
+    padding: 10px;
+}
+
+.nav-btn a {
+    color: white;
+}
+
 .btn-cta {
     margin-top: 20px;
     font-weight: 700;
     background-color: rgba(255, 193, 7, 0.83);
     color: white;
     border-radius: 10px;
-    
 }
 
 .btn-cta:hover {
@@ -189,4 +235,77 @@ z-index:1;
 .btn-modal {
     background-color: rgba(255, 193, 7, 0.83);
     color: white;
+}
+
+/*---quotes-section---*/
+
+.quotes .features, h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.quotes p {
+    text-justify: newspaper;
+}
+
+.quotes-container {
+    margin-top: 30px;
+}
+
+/*--features container---*/
+
+.features-container {
+    background-color: #969ba0;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature h3 {
+    margin: 20px 0;
+}
+
+.features-hr {
+    border-top: 2px solid white;
+}
+
+/*---footer---*/
+
+.container-footer {
+    margin-top: 30px;
+    background-color: #000000c7;
+    border-radius: 10px;
+}
+
+.container-footer i {
+    font-size: 30px;
+    color: white;
+}
+
+.container-footer li {
+    display: inline-block;
+    padding: 15px;
+}
+
+.footer-btn {
+    margin-bottom: 40px;
+}
+
+.footer-btn a {
+    color: white;
+}
+
+.container-footer p {
+    color: white;
+    margin-top: 30px;
+    margin-right: 0;
 }
